@@ -246,6 +246,8 @@ transform: translateY(-1px);
 #works_buttons{
     display: flex;
     gap:15px;
+     margin-top: 20px;
+    flex-wrap: wrap;
 }
 #simple_works{
     border-radius: 20px;
@@ -429,6 +431,7 @@ transform: translateY(-1px);
     }
     #teach{
         font-size: 10px;
+          margin-bottom: 20px;
     }
     #work_img{
         height:80px;
