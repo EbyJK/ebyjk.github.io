@@ -576,3 +576,53 @@ body {
     margin-top: 15px;
     line-height: 1.6;
 }
+
+
+
+#projects_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#works_con{
+    display: flex;
+    gap: 25px;
+
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+
+    width: 100%;
+}
+
+#works_con::-webkit-scrollbar{
+    display: none;
+}
+
+#works{
+    min-width: 350px;
+    flex-shrink: 0;
+}
+
+.scroll_btn{
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: #1f1f1f;
+    color: white;
+
+    font-size: 24px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.scroll_btn:hover{
+    background-color: #444;
+    transform: scale(1.08);
+}
