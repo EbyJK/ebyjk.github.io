@@ -551,3 +551,22 @@ body {
 #skills_content {
     background-color: #0d0c1d;
 }
+
+
+
+
+#publications{
+    margin-top: 40px;
+}
+
+#publications #works_con_s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#publications #simple_works{
+    width: 350px;
+    min-height: 220px;
+    padding: 20px;
+}
