@@ -202,6 +202,11 @@
         
         <h1 id="sub_head" class="kodo">My Works</h1>
         <br>
+
+        <div id="projects_wrapper">
+
+    <button class="scroll_btn left_btn">&#10094;</button>
+
         <div id="works_con">   
              <div id="works">
                 <div id="work_info">
@@ -521,6 +526,9 @@ This project replicates the core UI and functionality of Spotify, providing a sm
                     </a>
                 </div>
             </div>
+                </div>
+
+    <button class="scroll_btn right_btn">&#10095;</button>
         </div>
     </div>
     
@@ -811,6 +819,28 @@ This project replicates the core UI and functionality of Spotify, providing a sm
         
     </div>
 
+    <script>
+
+    const worksCon = document.getElementById("works_con");
+
+    const leftBtn = document.querySelector(".left_btn");
+    const rightBtn = document.querySelector(".right_btn");
+
+    rightBtn.addEventListener("click", () => {
+        worksCon.scrollBy({
+            left: 400,
+            behavior: "smooth"
+        });
+    });
+
+    leftBtn.addEventListener("click", () => {
+        worksCon.scrollBy({
+            left: -400,
+            behavior: "smooth"
+        });
+    });
+
+</script>
     
    
 </body>
