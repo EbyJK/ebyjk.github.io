@@ -607,22 +607,33 @@ body {
 }
 
 .scroll_btn{
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
 
     border-radius: 50%;
-    border: none;
 
-    background-color: #1f1f1f;
+    border: 1px solid rgba(255,255,255,0.15);
+
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(6px);
+
     color: white;
 
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
+
     cursor: pointer;
 
-    transition: 0.3s;
+    transition: all 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scroll_btn:hover{
-    background-color: #444;
+    background: rgba(255,255,255,0.18);
+
     transform: scale(1.08);
 }
