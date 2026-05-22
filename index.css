@@ -570,3 +570,9 @@ body {
     min-height: 220px;
     padding: 20px;
 }
+
+
+#publications #teach{
+    margin-top: 15px;
+    line-height: 1.6;
+}
